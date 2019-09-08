@@ -10,7 +10,7 @@ phases:
       - go version
       - ls -la
       # Run all tests included with our application
-      - go test ./...
+      - go test -v ./...
 
   build:
     commands:
