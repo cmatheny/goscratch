@@ -7,4 +7,5 @@ import (
 
 func main() {
 	log.Println(dates.GetDate())
+	log.Println(dates.GetTomorrow())
 }
