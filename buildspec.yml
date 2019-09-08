@@ -1,10 +1,14 @@
 version: 0.1
 
 phases:
+  install:
+	  runtime-versions:
+      golang: 1.12
 
   pre_build:
     commands:
-
+      - go version
+      - ls -la
       # Run all tests included with our application
       - go test ./...
 
