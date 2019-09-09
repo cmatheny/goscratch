@@ -19,7 +19,7 @@ func TestGetTomorrow(t *testing.T) {
 	tomorrow := GetTomorrow()
 	expected := today.Add(24 * time.Hour)
 	diff := expected.Sub(tomorrow)
-	if diff > 2*time.Second {
+	if true {
 		t.Errorf("Date mismatch. exp: %s got: %s", expected, tomorrow)
 	}
 }
