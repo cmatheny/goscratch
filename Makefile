@@ -1,7 +1,8 @@
-.PHONY: build clean deploy gomodgen
+export GO111MODULE=on
+
+.PHONY: clean build test deploy
 
 build:
-	export GO111MODULE=on
 	env GOOS=linux go build -ldflags="-s -w" -o bin/awslambda/getone cmd/awslambda/getone/main.go
 
 clean:
