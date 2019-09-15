@@ -12,5 +12,6 @@
 *.out
 
 node_modules
+.serverless
 
 .idea
