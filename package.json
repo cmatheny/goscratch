@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
-    "serverless": "^1.52.0",
+    "serverless": "^1.83.3",
     "serverless-functions-base-path": "^1.0.29"
   },
   "scripts": {
